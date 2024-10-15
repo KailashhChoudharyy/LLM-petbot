@@ -1,0 +1,13 @@
+prefix=/Users/kailash/Petbot/venv
+exec_prefix=/Users/kailash/Petbot/venv
+libdir=/Users/kailash/Petbot/venv/lib
+sharedlibdir=/Users/kailash/Petbot/venv/lib
+includedir=/Users/kailash/Petbot/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
